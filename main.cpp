@@ -1,22 +1,23 @@
 #include <iostream>
 #include <string>
 #include <vector>
-using namespace std;
 
-void print_hex(int a){}
+using std::cout;
+
+void print_hex(int a) {}
 
 int main() {
 
     auto i = 1;
     double b = i;
-    string s;
+    std::string s;
 
     if (1 < 2) {
-        cout << "1<2";
+        cout; std:: << "1<2";
     }
 
     while (1<2){
-        cout<<"helloworld";
+        std::coutstd:: << "helloworld";
     }
 
     print_hex(3);
