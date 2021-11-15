@@ -13,11 +13,11 @@ int main() {
     std::string s;
 
     if (1 < 2) {
-        cout; std:: << "1<2";
+        cout << "1<2";
     }
 
-    while (1<2){
-        std::coutstd:: << "helloworld";
+    while (1 < 2) {
+        cout << "helloworld";
     }
 
     print_hex(3);
