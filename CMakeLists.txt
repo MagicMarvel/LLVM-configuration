@@ -4,6 +4,7 @@ project(CreateC++Project VERSION 0.1.0)
 include(CTest)
 enable_testing()
 
+add_compile_options(-fstandalone-debug)
 add_executable(CreateC++Project main.cpp)
 
 # 自动导出complie——commands.json
