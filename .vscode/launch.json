@@ -5,6 +5,17 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "lldb",
+            "request": "launch",
+            "name": "(LLDB) launch - preLaunchTask",
+            "program": "${workspaceFolder}/build/${fileBasenameNoExtension}",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "build current file",
+            "internalConsoleOptions": "neverOpen",
+            "console": "integratedTerminal",
+        },
+        {
             "name": "(LLDB) Launch - cmake",
             "type": "lldb",
             "request": "launch",
@@ -31,16 +42,5 @@
                 }
             ]
         },
-        {
-            "type": "lldb",
-            "request": "launch",
-            "name": "(LLDB) launch - preLaunchTask",
-            "program": "${workspaceFolder}/build/${fileBasenameNoExtension}",
-            "args": [],
-            "cwd": "${workspaceFolder}",
-            "preLaunchTask": "build current file",
-            "internalConsoleOptions": "neverOpen",
-            "console": "integratedTerminal",
-        }
     ]
 }
