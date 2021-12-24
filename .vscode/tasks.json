@@ -12,6 +12,7 @@
                 "-g",
                 "-fstandalone-debug",
                 "-Wall",
+		"-DLOCAL",
                 "-o",
                 "${workspaceFolder}/build/${fileBasenameNoExtension}",
                 "${file}"
